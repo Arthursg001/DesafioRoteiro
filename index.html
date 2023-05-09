@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo Arthur Santos Garcia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cover"></div>
+    <button onclick="transition()">Transição de Tema</button>
+
+    <main class="box">
+        <header>
+            <h1>Arthur Santos Garcia</h1>
+        </header>
+
+        
+        <h2>Dados Pessoais</h2>
+        <p>Localização: Alameda Georgina Garcia Rodrigues N° 145 - Bairro: Residencial Gramado</p>
+        <p>Arthur Santos Garcia - 18 anos</p>
+        <p class="profission">Profissão Atual: Jovem Aprendiz (Setor Engenharia). Empresa BRF S.A</p>
+
+        
+        <h3>Formação Academica</h3>
+        <div class="formation">
+            <p>Ensino Médio Concluído</p>
+            <ul>
+                <li>Segundo Grau de Ensino Concluído</li>
+                <li>Instituições: Diversas Instituições de Ensino todas em Uberlândia - MG</li>
+            </ul>
+            <p>Cursando: Técnico em Analíse e Desenvolvimento de Sistemas - SENAC MG</p>
+            <ul>
+                <li>Localização: Av. Belo Horizonte, 525 - Martins, Uberlândia - MG</li>
+            </ul>
+            <p>Cursando: Aprendizagem Industrial em Processos Administrativos - SENAI</p>
+            <ul>
+                <li>Localização: R. Ernesto Vicentini, 245 - Pres. Roosevelt, Uberlândia - MG</li>
+            </ul>
+        </div>  
+        
+        <h3>Competências</h3>
+        <div class="skills">
+            <ul>
+                <li>Montagem/ Desmontagem e Limpeza de Computadores</li>
+                <li>Realização de Crimpagem de Patch Cord RJ 45 e conector RJ 45 femea</li>
+                <li>Pacote Office - Intermediário</li>
+                <li>Configuração de PABX</li>
+                <li>Proatividade</li>
+                <li>Vontade de Aprender</li>
+                <li>Trabalho em Equipe</li>
+                <li>Cooperatividade</li>
+            </ul>
+        </div>
+        
+        <h3>Experiências</h3>
+        <p><em>Empresa Peixoto Atacadista Jovem Aprendiz no setor da T.I | Setembro 2020 até Dezembro 2021 (1 ano e 4 meses de contrato pela ICASU)</em></p>
+        <p>Atividades Realizadas:</p>
+        <ul>
+            <li>Suporte Técnico em Computadores em geral</li>
+            <li>Suporte Técnico em coletores de dados</li>
+            <li>Suporte Remoto Help Desk para o aplicativo SMV</li>
+            <li>Suporte Técnico em Impressoras Zebras (Impressoras 3D)</li>
+            <li>Manutenção e reinstalação de imagem para All In One Positivo</li>
+        </ul>
+
+        <p><em>Atualmente na Empresa BRF S.A | Maio 2022 - Maio 2023</em></p>
+        <p>Atividade Realizadas:</p>
+        <ul>
+            <li>Criação de Aceite Técnico</li>
+            <li>Criação de TMSOE</li>
+            <li>Lançamento de Nota Fiscal</li>
+            <li>Dentre Outras</li>
+        </ul>
+        
+        <script>
+            function transition() { 
+        const classes = document.body.classList;
+
+        classes.add("transition")
+
+        setTimeout(() => {
+
+
+            if (classes.contains("theme2")) {
+                classes.remove("theme2")
+
+            } else {
+                classes.add("theme2")
+
+            }
+
+        }, 1000)
+
+        setTimeout(() => {
+            classes.remove("transition")
+
+        }, 2000)
+    }
+
+        </script>
+</body>
+<footer>
+        <h4>Formas de Contato</h4>
+        <ul>
+            <li>Whatsapp: (34) 9 9898-4933</li>
+            <li>Email: arthursg.asg001@hotmail.com</li>
+            <li>Telefone para Recado - Ana Paula Santos Silva: (34) 9 9165-6903</li>
+            <li>Telefone para Recado -  Geancarlos Rodrigues Garcia: (34) 9 9165-6904</li>
+        </ul>
+    </main>
+        
+        <a href="https://www.linkedin.com/in/arthur-santos-garcia-b047b922a/" target="_blank"><img src="Imagens/icons8-linkedin-2-30.png" alt="Linkedin"></a>
+        <a href="https://instagram.com/eae.arthursg" target="_blank"><img src="Imagens/icons8-instagram-24.png" alt="Instagram"></a>
+    
+    <!--&#x1F44D - Comando para aparecer emoji no site-->
+
+</footer>
+</html>
